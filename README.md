@@ -32,6 +32,6 @@ SnapNote offers a straightforward note-taking experience:
 
 ## Support
 
-For any queries, feedback, or assistance, please reach out to us at [support@snapnote.com](mailto:support@snapnote.com). We appreciate your feedback and suggestions!
+For any queries, feedback, or assistance, please reach out to us at [support@snapnote.com](mailto:j.nagavikram.com). We appreciate your feedback and suggestions!
 
 Thank you for using SnapNote for your note-taking needs!
