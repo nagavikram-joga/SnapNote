@@ -1,0 +1,49 @@
+<!--suppress ALL -->
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.SpendSnap" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:statusBarColor">@color/app_theme</item>
+
+<!--        <item name="android:windowBackground">@android:color/white</item>-->
+<!--        <item name="android:windowLightStatusBar">true</item>-->
+    </style>
+    <style name="MainScreen" parent="Theme.AppCompat.Light">
+        <item name="android:actionBarItemBackground">@color/app_theme</item>
+        <item name="android:actionBarTheme">@color/app_theme</item>
+        <item name="android:statusBarColor">@color/app_theme</item>
+        <item name="colorPrimary">@color/app_theme</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">@color/black</item>
+    </style>
+
+    <style name="SplashScreen" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/white</item>
+    </style>
+
+
+    <style name="Theme.SpendSnap" parent="Base.Theme.SpendSnap" />
+    <style name="custom_card_view" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopRight">48dp</item>
+        <item name="cornerSizeTopLeft">48dp</item>
+        <item name="cornerSizeBottomLeft">0dp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+    </style>
+    <style name="custom_card_view_style" parent="Widget.MaterialComponents.CardView">
+        <item name="shapeAppearanceOverlay">@style/custom_card_view</item>
+    </style>
+
+    <style name="circularShape">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="AppTheme.PopupMenu" parent="Widget.AppCompat.PopupMenu">
+        <item name="android:popupBackground">@android:color/white</item> <!-- Set the background color to white -->
+        <item name="android:textColor">@android:color/black</item> <!-- Set the text color to black -->
+    </style>
+
+
+</resources>

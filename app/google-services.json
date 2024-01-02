@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1014867280614",
+    "project_id": "spendsnap-b06b4",
+    "storage_bucket": "spendsnap-b06b4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1014867280614:android:cb5b35155adb2d38a2f127",
+        "android_client_info": {
+          "package_name": "com.miniproject.spendsnap"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrzalz0iOHdN_PimwMLo-MRggpWr2tS7I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
